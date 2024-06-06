@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body bgcolor="FAD2AB">
+    <header>
+        <b>
+            <h1><img src="Images/Istravel logo final terminado.png" width="10%" height="auto">Agencia Turismo IStravel - Jerusalem</h1>
+        </b>
+        <nav>
+            <ol>
+                <a href="index.html">Home</a>
+                <a href="restaurantes.html">Restaurantes</a>
+                <a href="sitiosTuristicos.html">Sitios turisticos</a>
+                <a href="cultura.html">Cultura</a>
+                <a href="contacto.html">Contacto</a>
+
+            </ol>
+        </nav>
+        <img src="Images/kotel.png" alt="banner-jerusalem" width="100%"
+            height="auto">
+
+    </header>
+    <h1>¿Le ha gustado nuestro propuesta? ¡No dude en contactarnos!</h1>
+    <font size=4>
+        <p>Nos contactaremos con usted para resolverle sus inquietudes.</p>
+    </font>
+    <form action="post">
+        <h2>Ingrese sus datos</h2>
+        <p>Nombre:</p>
+        <input type="text" placeholder="Nombre">
+        <p>Apellido:</p>
+        <input type="text" placeholder="Apellido">
+        <p>Numero de telefono:</p>
+        <input type="tel" placeholder="555-789-1234">
+        <p>E-mail para contactarnos:</p>
+        <input type="text" placeholder="IStravel@gmail.com">
+        <p>Seleccione a que barrio de jerusalem quiere ir:</p>
+        <select name="barrios">
+            <option disabled="" selected="">Barrios</option>
+            <option>Barrio musulman</option>
+            <option>Barrio judio</option>
+            <option>Barrio cristiano</option>
+            <option>Barrio armenio</option>
+        </select>
+        <h3>Ingrese entre que fechas quiere ir</h3>
+        <p>Fecha ingreso</p><input type="date">
+        <p>Fecha egreso</p><input type="date">
+        <p>Ingrese de que pais es:</p>
+        <input type="text" placeholder="ej: argentina">
+    </form>
+    <font size="4">
+        <p>Nosotros entendemos su situación, escriba su duda para que pueda ser atendido lo mas rapido posible!</p>
+    </font>
+    <textarea name="Dudas" id="dudas" cols="70" rows="5"></textarea>
+
+    <form>
+        <hr>
+        <h1>📈 Valora nuestro servicio:</h1>
+        <img src="Images/valoration.png" width="130" height="auto">
+        <div></div>
+        <input type="range" max="5" min="1" step="1">
+        <input type="submit" name="BotonSubmit" value="Enviar valoración">
+        <input type="reset" name="botonReset" value="Reset form">
+    </form>
+    <footer>
+        <marquee scrollamount="10">
+            <font size="3" face="verdana" color="brown">
+                <p>Copyright ©2024 | Agencia IStravel | Usach - Berman</p>
+            </font>
+        </marquee>
+    </footer>
+</body>
+
+</html>
